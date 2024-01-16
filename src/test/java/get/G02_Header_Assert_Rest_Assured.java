@@ -5,8 +5,8 @@ import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class G02 {
-    // BU TESTTE REST ASSURED İLE DOĞRULAMA YAPTIK
+public class G02_Header_Assert_Rest_Assured {
+    // BU TESTTE REST ASSURED İLE HEADER ÜZERİNDE DOĞRULAMA YAPTIK
     @Test
     public void testName() {
           /*

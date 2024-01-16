@@ -6,8 +6,8 @@ import org.testng.annotations.Test;
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.*;
 
-public class G01 {
-// BU TESTTE JUNIT İLE DOĞRULAMA YAPTIK
+public class G01_Header_Assert_JUnit {
+// BU TESTTE JUNIT İLE HEADER ÜZERİNDE DOĞRULAMA YAPTIK
     @Test
     public void testName() {
          /*

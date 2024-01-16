@@ -7,7 +7,7 @@ import static io.restassured.RestAssured.given;
 import static org.junit.Assert.*;
 
 public class G01 {
-
+// BU TESTTE JUNIT İLE DOĞRULAMA YAPTIK
     @Test
     public void testName() {
          /*

@@ -16,7 +16,8 @@
     </properties>
 
     <dependencies>
-        <!-- api testlerini yapmamizi saglar -->
+
+        <!--API sorgusu için gerekli 1. dependency assertion icin rest-assured -->
         <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
         <dependency>
             <groupId>io.rest-assured</groupId>
@@ -24,7 +25,8 @@
             <version>5.3.0</version>
             <scope>test</scope>
         </dependency>
-        <!-- hard assertion icin -->
+
+        <!--API sorgusu için gerekli 2. dependency hard sorgu icin junit -->
         <!-- https://mvnrepository.com/artifact/junit/junit -->
         <dependency>
             <groupId>junit</groupId>
@@ -32,36 +34,63 @@
             <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
-        <!--framework icin -->
+
+        <!--Test anatosyonları icin junit -->
         <!-- https://mvnrepository.com/artifact/org.testng/testng -->
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>7.8.0</version>
+            <version>7.7.1</version>
             <scope>test</scope>
         </dependency>
 
-        <!-- api sorgulari icin kullanilacak 1. dependency -->
+        <!--API sorgusu için gerekli 1. dependency json-->
+
         <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
             <version>2.10.1</version>
         </dependency>
-        <!-- api sorgulari icin kullanilacak 2. dependency -->
-        <!-- https://mvnrepository.com/artifact/org.json/json -->
+
+
+        <!--API sorgusu için gerekli 2. dependency json-->
+
         <dependency>
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
-            <version>20231013</version>
+            <version>20190722</version>
         </dependency>
-        <!-- api sorgulari icin kullanilacak 3. dependency -->
-        <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+        <!--API sorgusu için gerekli 3. dependency json-->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-            <version>2.15.2</version>
+            <version>2.13.1</version>
         </dependency>
+
+        <!-- Pojo class olusturmak icin -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.26</version>
+            <scope>provided</scope>
+        </dependency>
+        <!--Eski nesil Microsoft Office belgeleriyle (Word, Excel, PowerPoint) çalışmak için kullanılır -->
+        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>5.0.0</version>
+        </dependency>
+
+        <!--Yeni nesil Microsoft Office belgeleriyle (Word, Excel, PowerPoint) çalışmak için kullanılır -->
+        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>5.0.0</version>
+        </dependency>
+
 
 
 
